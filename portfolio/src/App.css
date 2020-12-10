@@ -1,0 +1,369 @@
+
+  .App {
+    background-color: #f7faf0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+  }
+  
+  .header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 900px !important;
+    background-image: url('./img/gradient.jpg');
+    background-size: cover;
+    height: 500px;
+  }
+
+  .App-header a {
+    color: black;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  .App-header a:hover {
+    font-weight: 600;
+  }
+
+.wideimg {
+  width: 100%;
+}
+
+
+h1 {
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.large {
+  font-weight: 200;
+  font-size: 70px;
+}
+
+.card {
+  max-width: 300px;
+}
+
+
+.App-footer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.logo {
+  max-height: 40px;
+  margin: 10px;
+}
+
+.logo:hover {
+  filter: opacity(60%);
+  cursor: pointer;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+#about {
+  margin-top:100px;
+  padding-bottom: 50px;
+  height: 500px;
+  background-image: url('./img/gradient-flipped-180.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.App-body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 18rem 18rem 18rem;
+  justify-content: center;
+  grid-gap: 50px 100px;
+}
+
+.card-list {
+  text-align: center;
+}
+
+.card {
+  color: white;
+  /* Ensure uniform card size */
+  /* min-height: 517px; */
+  font-size: 20px;
+}
+
+.card-list img {
+  width: 300px;
+  padding: 25px 15px 0px 15px;
+  object-fit: cover;
+  box-shadow: 0 0 10px #888888;
+
+
+}
+
+.paragraph {
+  width: 500px;
+}
+
+
+
+/* _______________________ */
+
+.body {
+  
+  margin: 0;
+  padding: 50px;
+  background-image: url('./img/gradient-flipped-90.jpg');
+  background-size: cover;
+
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.title h1 {
+  font-size: 70px;
+}
+
+.section {
+  border-radius: 10px;
+  height: auto;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 12px;
+  padding-bottom: 30px;
+  background-color: white;
+
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  font-size: 2em;
+  margin-left: 8%;
+}
+
+.btext {
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+.button {
+  border: solid;
+  border-width: 3px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Century Gothic, AppleGothic, sans-serif;
+  width: auto;
+  margin: 30px;
+  margin-left: calc(50% - 150px);
+}
+
+.button:hover {
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+
+.grid-1by3 {
+  padding: 50px;
+  padding-top: 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+}
+
+.grid-1by2 {
+  padding: 30px;
+  padding-top: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
+.block1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.block2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+.block3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.grid-1by3 > div {
+  border-radius: 30px;
+  background-color: #faf0f5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol {
+  margin-bottom: 50px;
+}
+
+li {
+  margin-top:10px;
+  margin-left: 10px;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 50px !important;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 30px !important;
+
+}
+
+h5 {
+  margin-top: 0;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+#sketch {
+  width: 75%;
+  height: auto;
+}
+
+#guide {
+  width: 60%;
+  border-style: solid;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+#large {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.small {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+#iphone {
+  width: 50%;
+}
+
+#center {
+  margin-left: 40%;
+}
+
+#img-design {
+    max-width: 400px;
+    margin-left: calc(50% - 200px);
+}
+
+#img-site {
+  border-style: solid;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: calc(50% - 300px);
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width:700px) {
+  /* For mobile phones: */
+.grid-1by3 {
+  padding: 50px;
+  padding-top: 0;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto;
+}
+
+.grid-1by2 {
+  padding: 30px;
+  padding-top: 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+}
+
+.block1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+.block2 {
+  grid-row: 2;
+  grid-column: 1;
+}
+.block3 {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.section {
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.title {
+  font-size: 7vw;
+}
+.heading {
+  font-size: 6vw;
+}
+}
