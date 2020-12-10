@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import sketch from "./img/machine-sketch.svg";
+import eva from "./img/empathy-map-eva.svg";
+import angel from "./img/empathy-map-angel.svg";
+import storyboard from "./img/storyboard.svg";
 
 
 class New extends Component {
@@ -18,7 +22,7 @@ class New extends Component {
         <div class="section">
             <h2 class="heading"> Interface </h2>
             <p class="btext"> To explore the interface of the modern sewing machine, I focused on the Brother CS5055PRW Project Runway Computerized Sewing Machine. Illustrated below, this machine is beginner-friendly while including a variety of stitches and settings for experienced users. To use the machine, the user must wind and insert the bobbin, thread the machine and needle, and finally sew by pressing the foot pedal while guiding the fabric. </p>
-            <img src="machine-sketch.svg" alt="Sketch of a sewing machine with labeled parts" class="image" id="sketch"/>
+            <img src={sketch} alt="Sketch of a sewing machine with labeled parts" class="image" id="sketch"/>
         </div>
         <div class ="section">
         <h2 class="heading"> User Observations </h2>
@@ -117,13 +121,13 @@ class New extends Component {
         <div class="block1">
             <h2 class="btext">Eva</h2>
             <p class="btext">Eva used a sewing machine when she was 11, and now she’s trying to mend a dress to wear to a dinner party. She only needs to do a single straight stitch but doesn’t remember how to thread the machine.</p>
-            <img src="empathy-map-eva.svg" alt="Empathy map of Eva." class="image"/>
+            <img src={eva} alt="Empathy map of Eva." class="image"/>
             <p class="btext">Eva represents a new or inexperienced user. The main problem she faces is mapping the user manual instructions and labeled drawings into action. She struggles to interpret the state of the machine to determine whether her intentions were met.</p>
         </div>
         <div class="block2">
             <h2 class="btext">Angel</h2>
             <p class="btext">Angel regularly uses his sewing machine for hours at a time to make custom clothes for his online shop. He works as quickly as he can and uses complicated stitches and settings for different materials.</p>
-            <img src="empathy-map-angel.svg" alt="Empathy map of Angel." class="image"/>
+            <img src={angel} alt="Empathy map of Angel." class="image"/>
             <p class="btext">Angel represents an experienced user who often uses this machine. His problems with the interface are things that slow him down and interrupt his experience: the speed of the machine, changing the bobbin, and breaking a needle.</p>
         </div>
         </div>
@@ -131,7 +135,7 @@ class New extends Component {
         <div class ="section">
         <h2 class="heading"> Storyboard </h2>
         <p class="btext">To visually explore my persona’s experience using the sewing machine, I created a storyboard of Eva’s user journey from start to end.</p>
-        <img src="storyboard.svg" alt="Storyboard visualizing the persona Eva using the sewing machine." class="image"/>
+        <img src={storyboard} alt="Storyboard visualizing the persona Eva using the sewing machine." class="image"/>
         </div>
         <div class="section">
             <h2 class="heading"> Results </h2>

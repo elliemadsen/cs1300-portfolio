@@ -2,13 +2,14 @@ import React from "react";
 import {Card} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 import internship from "./img/internship-review.jpg"
-import personas from "./img/personas.jpg"
+import personas from "./img/personasimg.jpg"
 import redesign from "./img/redesign.jpg"
-// import page from "./projects/personas.html"
+import carbonchain from "./img/carbonchainimg.jpg"
 
 
 
-// maps each product from App.js to an HTML element or Component for render
+
+// maps each project from App.js to an HTML element or Component for render
 export default class DisplayList extends React.Component {
 
 
@@ -17,7 +18,7 @@ export default class DisplayList extends React.Component {
         if (item.name === "Interface Redesign") { return personas;}
         if (item.name === "Website Redesign") { return redesign;}
         if (item.name === "Internship Reviews") { return internship;}
-
+        if (item.name === "Carbon Chain") { return carbonchain;}
     }
     
     renderList() {
@@ -27,7 +28,7 @@ export default class DisplayList extends React.Component {
              return <li key={item.name}>
                     <div className="card-list">
                         <Card className="card" style={{ width: '18rem' }}>
-                        <Link to="/InterfaceRedesign">
+                        <Link to={item.link}>
                             <Card.Img variant="top" src={this.getImg(item)}
                             onMouseOver={(e) => (e.currentTarget.style = "filter: opacity(80%); cursor: pointer;")}
                             onMouseOut={(e) => (e.currentTarget.style = "filter: opacity(100%);")}

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { NavLink } from 'react-router-dom';
-import {Link} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 
@@ -9,14 +8,15 @@ class Header extends Component {
     return (
       <header className="App-header">
           <div class="header">
+          <Link to="/">
             <h1>
-                Ellie Madsen
+                My Name
             </h1>
-            <div>
-                <a href="#work">Work</a>
-                <Link to="#work">Work</Link>
+          </Link>
 
-                <a href="#about">About</a>
+            <div>
+                <Link to="/#work">Work</Link>
+                <Link to="/#about">About</Link>
             </div>
           </div>
       </header>

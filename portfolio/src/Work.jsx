@@ -2,10 +2,10 @@ import React, {Component} from "react";
 import DisplayProjects from "./DisplayProjects";
 
 const projects = [
-    {name:"Website Redesign", img:"img", link:"https://stark-ocean-08515.herokuapp.com/"},
-    {name:"Interface Redesign", img:"img", link:"/projects/personas"},
-    {name:"Internship Reviews", img:"img", link:"https://polar-river-78462.herokuapp.com/"}
-    // {name:"graphics", img:"img", link:""}
+    {name:"Website Redesign", link:"/WebsiteRedesign"},
+    {name:"Interface Redesign", link:"/InterfaceRedesign"},
+    {name:"Internship Reviews", link:"/InternReviews"},
+    {name:"Carbon Chain", link:"/CarbonChain"}
 ]
 
 class Body extends Component {
