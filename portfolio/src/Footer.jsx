@@ -10,13 +10,13 @@ class Footer extends Component {
     return (
       <footer className="App-footer">
           <img src={github} class="logo"
-            onClick={(e) => window.location.href="https://github.com/elliemadsen"}
+            // onClick={(e) => window.location.href="https://github.com/elliemadsen"}
           />
           <img src={twitter} class="logo"
-            onClick={(e) => window.location.href="https://twitter.com/ellie_madsen"}
+            // onClick={(e) => window.location.href="https://twitter.com/ellie_madsen"}
             />
           <img src={linkedin} class="logo"
-            onClick={(e) => window.location.href="https://www.linkedin.com/in/ellie-madsen-744565155/"}
+            // onClick={(e) => window.location.href="https://www.linkedin.com/in/ellie-madsen-744565155/"}
             />
 
       </footer>
